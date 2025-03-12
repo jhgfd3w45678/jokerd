@@ -20,8 +20,8 @@ logging.basicConfig(level=logging.INFO)
 MAX_ATTACK_DURATION = 240
 USER_ACCESS_FILE = "user_access.txt"
 ATTACK_LOG_FILE = "attack_log.txt"
-OWNER_ID = "6191432888"
-bot = telebot.TeleBot('7467185686:AAHq_wgkijJrIvCByP9ZUe9JjcWoJRloZgQ')
+OWNER_ID = "6373931635"
+bot = telebot.TeleBot('8010307218:AAF-wm0gCWD0orfRXXNKLQo_0vwQY2U2Zfc')
 
 # Auto-convert backup file on first run
 if not os.path.exists(USER_ACCESS_FILE) and os.path.exists("user_access_backup.txt"):
